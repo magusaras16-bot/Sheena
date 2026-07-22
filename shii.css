@@ -86,13 +86,16 @@ justify-content:center;
 }
 
 .hero-image img{
-width:370px;
-height:370px;
-object-fit:cover;
-border-radius:50%;
-border:8px solid #1565C0;
-box-shadow:0 0 40px rgba(21,101,192,.4);
-transition:.5s;
+    width:300px;          /* Width */
+    height:400px;         /* Height (larger for an oval shape) */
+    object-fit:cover;
+    object-position:center top;
+
+    border-radius:50%;
+
+    border:8px solid #1565C0;
+    box-shadow:0 0 40px rgba(21,101,192,.4);
+    transition:.5s;
 }
 
 .hero-image img:hover{
