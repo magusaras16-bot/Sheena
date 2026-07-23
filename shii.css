@@ -923,7 +923,11 @@ header.scrolled{
     gap:20px;
 }
 
-.about-info div{
+.about-info a{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+    cursor:pointer;
     background: rgba(10,25,60,.65);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -934,9 +938,10 @@ header.scrolled{
     transition:.4s;
 }
 
-.about-info div:hover{
+.about-info a:hover{
     transform:translateY(-8px);
     box-shadow:0 15px 35px rgba(21,101,192,.4);
+    border-color:rgba(66,165,245,.5);
 }
 
 .about-info i{
