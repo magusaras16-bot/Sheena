@@ -757,12 +757,6 @@ transform:translateY(0);
 
 }
 
-header{
-backdrop-filter:blur(10px);
-background:rgba(13,71,161,.95);
-transition:.4s;
-}
-
 header.scrolled{
 
     background:rgba(3,10,28,.92);
