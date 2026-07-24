@@ -78,17 +78,26 @@
 
 /* ================= PROJECT IMAGE ================= */
 
-.project-image{
-    margin-top:35px;
-    text-align:center;
+.project-description{
+    margin-top:30px;
+}
+
+.project-description p{
+    color:#E6F2FF;
+    font-size:17px;
+    line-height:1.9;
+    margin-bottom:20px;
+    text-align:justify;
 }
 
 .project-image img{
     width:100%;
     max-width:700px;
+    display:block;
+    margin:auto;
     border-radius:18px;
     border:2px solid rgba(255,255,255,.15);
-    box-shadow:0 12px 30px rgba(0,0,0,.35);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
 }
 
 .project-image p{

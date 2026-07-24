@@ -45,7 +45,7 @@ reveals[i].classList.add("active");
 }
 
 const words = [
-    "Electronics Engineering Student",
+    "Electronics Engineering",
     "Future Electronics Engineer",
     "Guitar Player",
     "Basketball Player",
