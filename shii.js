@@ -1,19 +1,25 @@
 // Dark Mode
 const button = document.getElementById("darkMode");
 
+if(button){
+
 button.onclick = () => {
+
 document.body.classList.toggle("dark");
 
 if(document.body.classList.contains("dark")){
 
-    button.innerHTML="☀️";
+button.innerHTML="☀️";
 
 }else{
 
-    button.innerHTML="🌙";
+button.innerHTML="🌙";
 
 }
+
 };
+
+}
 
 // Scroll Animation
 window.addEventListener("scroll", reveal);
@@ -87,6 +93,8 @@ type();
 
 const topBtn=document.getElementById("topBtn");
 
+if(topBtn){
+
 window.onscroll=function(){
 
 if(document.documentElement.scrollTop>300){
@@ -113,6 +121,8 @@ behavior:"smooth"
 
 }
 
+}
+
 window.addEventListener("scroll",()=>{
 
 const header=document.querySelector("header");
@@ -131,24 +141,28 @@ header.classList.remove("scrolled");
 
 const contactForm = document.querySelector("#contact-form");
 
+if(contactForm){
+
 contactForm.addEventListener("submit", function (e) {
 
-    e.preventDefault();
+e.preventDefault();
 
-    emailjs.sendForm(
-        "service_t5okt0g",
-        "template_6wch3q6",
-        this
-    ).then(function () {
+emailjs.sendForm(
+"service_t5okt0g",
+"template_6wch3q6",
+this
+).then(function(){
 
-        alert("Message sent successfully!");
-        contactForm.reset();
+alert("Message sent successfully!");
+contactForm.reset();
 
-    }).catch(function (error) {
+}).catch(function(error){
 
-        alert("Failed to send message.");
-        console.log(error);
-
-    });
+alert("Failed to send message.");
+console.log(error);
 
 });
+
+});
+
+}

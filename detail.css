@@ -75,3 +75,25 @@
 }
 
 }
+
+/* ================= PROJECT IMAGE ================= */
+
+.project-image{
+    margin-top:35px;
+    text-align:center;
+}
+
+.project-image img{
+    width:100%;
+    max-width:700px;
+    border-radius:18px;
+    border:2px solid rgba(255,255,255,.15);
+    box-shadow:0 12px 30px rgba(0,0,0,.35);
+}
+
+.project-image p{
+    margin-top:15px;
+    color:#E6F2FF;
+    font-size:16px;
+    font-style:italic;
+}
